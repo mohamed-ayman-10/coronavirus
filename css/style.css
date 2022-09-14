@@ -1072,6 +1072,12 @@ a {
     gap: 30px;
 }
 
+@media (max-width: 991px) {
+    .faq .parent {
+        flex-direction: column;
+    }
+}
+
 .faq ul {
     flex-basis: calc(35% - 15px);
 }
